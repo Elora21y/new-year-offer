@@ -1,0 +1,141 @@
+/* inter font  */
+.inter{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .merriweather{
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+  /* shared styles */
+  .center{
+    text-align: center;
+  }
+  .party-title{
+    color: #FFFFFF;
+    font-size: 72px;
+    line-height: 95px;
+    font-weight: 900;
+    font-family: "Merriweather", serif;
+  }
+
+  .primary-color{
+    color: #FF0000;
+  }
+
+  .section-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .section-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", serif;
+    line-height: 32px;
+  }
+  /* main styles */
+  main{
+    max-width: 1320px;
+    margin: 0 auto;
+  }
+  main section{
+    border-radius: 16px;
+    margin-bottom: 100px;
+    /* height: 600px; */
+  }
+
+  /* banner section styles */
+  .party-subtitle{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+
+  }
+  .banner{
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) , url('../images/Banner\ Image.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    padding: 100px 340px 150px;
+    max-width: 600px;
+  }
+  
+  /* new year styles */
+  /* .new-year{
+    max-width: 800px;
+  } */
+  .new-year-title{
+    font-size: 88px;
+    font-weight: bold;
+  }
+  .new-year-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  /* party section styles */
+  .party{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%) , url('../images/Vectorrr.png') ;
+    padding: 66px 138px 66px 126px;
+  }
+
+  .party-description{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .join{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  /* info section styles */
+
+  .info{
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    padding: 105px 385px;
+  }
+  .info-description{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #070211;
+  }
+
+  .section-btn{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    border-radius: 8px;
+    border: 0;
+  }
+
+  /* happy section styles */
+  .happy{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .happy-title{
+    font-size: 48px;
+    font-weight: bold;
+  }
+  .happy-img{
+    /* overflow: hidden;
+    object-fit: cover; */
+    border-radius: 50%;
+    border: 18px solid red;
+  }
